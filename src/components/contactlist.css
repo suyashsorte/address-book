@@ -1,0 +1,40 @@
+.del {
+  color: red;
+  display: none;
+  position: relative;
+}
+
+.email {
+  width: fit-content;
+  margin-right: 5%;
+  position: relative;
+}
+
+.email:hover .del {
+  display: block;
+  display: inline-flex;
+}
+
+.contact {
+  overflow-y: scroll;
+  height: 580px;
+  background: rgba(0, 151, 19, 0.1);
+}
+
+.allcontact,
+.group {
+  background-color: #aed6f1;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.emailheader {
+  font-size: 20px;
+  margin-top: 2%;
+}
+
+.addemail {
+  margin-top: 2%;
+}
